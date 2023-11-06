@@ -1,11 +1,11 @@
-#include "Nodo.h"
+#include "NodoGrafo.h"
 
 int main() {
     // Crear nodos
-    Nodo nodo1(1);
-    Nodo nodo2(2);
-    Nodo nodo3(3);
-    Nodo nodo4(4);
+    NodoGrafo nodo1(1);
+    NodoGrafo nodo2(2);
+    NodoGrafo nodo3(3);
+    NodoGrafo nodo4(4);
 
     // Agregar adyacentes
     nodo1.agregarAdyacente(&nodo2, 10);
